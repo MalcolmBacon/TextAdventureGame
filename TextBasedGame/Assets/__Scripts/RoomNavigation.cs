@@ -25,7 +25,7 @@ public class RoomNavigation : MonoBehaviour {
 	
 	}
 
-	void AttemptToChangeRooms(string directionNoun)
+	public void AttemptToChangeRooms(string directionNoun)
 	{
 		if (exitDictionary.ContainsKey (directionNoun)) {
 			currentRoom = exitDictionary [directionNoun];
@@ -39,4 +39,5 @@ public class RoomNavigation : MonoBehaviour {
 	public void ClearExits()
 	{
 		exitDictionary.Clear ();
+	}
 }

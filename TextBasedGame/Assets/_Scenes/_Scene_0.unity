@@ -413,6 +413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: {fileID: 988357476}
+  inputActions:
+  - {fileID: 11400000, guid: 79c1c26c8adfe03408e95f21eb577aa0, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescripitionsInRoom: []
 --- !u!4 &912126426
